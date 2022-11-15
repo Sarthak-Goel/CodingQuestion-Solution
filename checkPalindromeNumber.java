@@ -23,6 +23,4 @@ class Solution {
 
 
 // In Python3
-
-// b=str(x)
-// return b == b[::-1]
+// return str(x) == str(x)[::-1]
