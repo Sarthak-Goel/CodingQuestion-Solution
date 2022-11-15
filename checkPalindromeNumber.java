@@ -1,6 +1,6 @@
-# WAP to check if the number entered is Palindrome
-# x is the test number, which is passed into the check isPalindrome function
-#---------------------------------
+// WAP to check if the number entered is Palindrome
+// x is the test number, which is passed into the check isPalindrome function
+//---------------------------------
 
 class Solution {
     public boolean isPalindrome(int x) {
@@ -13,9 +13,16 @@ class Solution {
     }
 }
 
-#--------------------------------
+//--------------------------------
 
-# Algorithm-
-# 1. Convert number to String
-# 2. Use a 'for' Loop to traverse string from both ends and check for equality of characters encountered
-# 3. Return True False, depending on that
+// Algorithm-
+// 1. Convert number to String
+// 2. Use a 'for' Loop to traverse string from both ends and check for equality of characters encountered
+// 3. Return True False, depending on that
+
+
+
+// In Python3
+
+// b=str(x)
+// return b == b[::-1]
